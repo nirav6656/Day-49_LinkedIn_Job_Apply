@@ -25,3 +25,9 @@ final_sign_in = driver.find_element(By.CLASS_NAME, "btn__primary--large").click(
 time.sleep(2)
 
 click_easy_apply_button = driver.find_element(By.CLASS_NAME, "jobs-apply-button").click()
+
+time.sleep(2)
+click_company_name = driver.find_element(By.CSS_SELECTOR, "ember188 strong").click()
+
+
+driver.quit()
